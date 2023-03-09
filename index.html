@@ -53,7 +53,7 @@
               <div class="dropdown">
                 <select id="dropdownMenuButton" class="btn bg-gradient-primary dropdown-toggl" name="select">
                   <option value="" selected disabled hidden>Seleccione una ciudad</option>
-                  <option class="dropdown-item" value="guayaquil">Guayaquil</option>
+                  <!--<option class="dropdown-item" value="guayaquil">Guayaquil</option>-->
                   
                 </select>
               </div>
@@ -155,7 +155,7 @@
               </div>
             </div>
             <div class="card-body p-3 pb-0">
-              <ul class="list-group">
+              <ul class="list-group" id="forecast_week">
                 <!-- template_forecast -->
               </ul>
             </div>
@@ -201,11 +201,6 @@
   <script src="assets/js/core/bootstrap.min.js"></script>
   <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
   <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
-
-  
-  <script src="assets/js/data.js" type="module"></script>
-  <script src="assets/js/weather.js" type="module"></script>
-  
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -220,7 +215,8 @@
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="assets/js/material-dashboard.min.js?v=3.0.4"></script>
  
-  
+  <script src="assets/js/data.js" type="module"></script>
+  <script src="assets/js/weather.js" type="module"></script>
   
 </body>
 
